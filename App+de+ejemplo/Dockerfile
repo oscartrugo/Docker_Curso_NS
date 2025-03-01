@@ -5,3 +5,5 @@ RUN npm install
 COPY . .
 # privnenv API para imprimir la variable de entorno
 ENV API=https://apiv1.miweb.com
+# Ejecutamos el comando para iniciar la app de React
+CMD [ "npm", "run", "dev" ]
